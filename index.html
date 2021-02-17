@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="survey-form.css">
+    
+    <title>Survey Form</title>
+</head>
+<body>
+    
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+
+    <form id="survey-form" action="">
+        <label for="name">Name: </label>
+        <input type="text" name="name" id="name" placeholder="Enter your name">
+
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" placeholder="Enter your Email">
+
+        <label for="number">Age: </label>
+        <input type="number" name="number" id="number" min="1" max="99" placeholder="Age">
+
+        <label for="dropdown">Which option best describes your current role?</label>
+        <select name="dropdown" id="dropdown">
+            <option disable selected value>Select current role</option>
+            <option value="student">Student</option>
+            <option value="full-time-job">Full time job</option>
+            <option value="full-time-learner">Full time learner</option>
+            <option value="prefer-not-to-say">Prefer not to say</option>
+            <option value="other">Other</option>
+        </select>
+
+
+    </form>
+
+</body>
+</html>
